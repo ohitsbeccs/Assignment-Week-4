@@ -1,126 +1,82 @@
-
+/* Basic body setup */
 body {
-
     font-family: Georgia, serif;
-
     margin: 0;
-
     padding: 0;
-
     color: #000000;
-
     background-color: #c9adf8;
-
 }
 
-
-
+/* Header section with border */
 header {
-
-    background-color: #531179
-
-    color: white;
-
-    padding: 20px;
-
-    text-align: center;
-
-}
-
-
-
-nav ul {
-
-    list-style-type: none;
-
-    padding: 0;
-
-    text-align: center;
-
     background-color: #531179;
-
-}
-
-
-
-nav ul li {
-
-    display: inline;
-
-    margin-right: 20px;
-
-}
-
-
-
-nav a {
-
     color: white;
-
-    text-decoration: none;
-
-    font-weight: bold;
-
-}
-
-
-
-main {
-
     padding: 20px;
-
     text-align: center;
-
+    border-bottom: 3px solid #333; /* Border added to header */
 }
 
-
-
-section {
-
-    margin-bottom: 30px;
-
-}
-
-
-
-h2 {
-
-    color: #531179;
-
-}
-
-
-
-ul {
-
+/* Navigation styling */
+nav ul {
     list-style-type: none;
-
     padding: 0;
-
-}
-
-
-
-footer {
-
-    background-color: #333;
-
-    color: white;
-
     text-align: center;
-
-    padding: 10px;
-
+    background-color: #531179;
+    border-top: 2px solid #333; /* Border added to top of nav */
+    border-bottom: 2px solid #333; /* Border added to bottom of nav */
 }
 
+/* Navigation links */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
+/* Navigation link style */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+/* Main content area */
+main {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #333; /* Border added around main content */
+    margin: 20px; /* Space around main */
+}
+
+/* Section within main */
+section {
+    margin-bottom: 30px;
+}
+
+/* Header for sections */
+h2 {
+    color: #531179;
+}
+
+/* Unordered list in main */
+ul {
+    list-style-type: none;
+    padding: 0;
+    border-left: 3px solid #531179; /* Border added to left of lists */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #531179; /* Border added to top of footer */
+}
+
+/* Responsive image styling */
 .responsive-image {
-
     max-width: 100%;
-
     height: auto;
-
     margin-top: 20px;
-
+    border: 2px solid #333; /* Border around images */
 }
